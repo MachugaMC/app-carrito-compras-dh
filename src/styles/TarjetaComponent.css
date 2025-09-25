@@ -1,0 +1,32 @@
+.card {
+    display: grid;
+    margin: auto;
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.card-img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.card-title {
+    margin: 0;
+    font-weight: bold;
+}
+.card-price {
+    font-weight: bolder;
+    color: #433939;
+    margin: 0;
+}
+.card-description {
+    margin: 0 0 10px 0;
+}
